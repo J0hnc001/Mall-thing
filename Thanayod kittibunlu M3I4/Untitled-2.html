@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mall</title>
+<style>
+	
+        
+		header{ background-color:; padding: 15px; text-align: center;border-radius: 50px}
+
+	.card-grid {
+    display: grid;
+    /* Cards will be at least 200px wide, and as many as fit, sharing space */
+    grid-template-columns: repeat(auto-fit, minmax(600px));
+    gap: 25px;
+    padding: 50px;
+    background-color:#000000;
+    border-radius: 20px;
+}
+.card {
+    background-color:#FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: sans-serif;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card h4 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+</style>
+</head>
+<body>
+	<header><h1>Top 5 Best Shopping Mall in Thailand</h1></header>
+<div class="card-grid">
+	<div class="card" ><h4><b>1.Siam Paragon</b></h4><p><b>Known for its luxury brands, high-end shopping, and the Sea Life Bangkok Ocean World aquarium. </b></p><a href="https://www.siamparagon.co.th/" target="_blank"><img src="ssiam.png" id="Siam Paragon" width="800px" height="600" alt="Siam Paragon"></a></div>
+	
+  <div class="card" ><h4>2.ICONSIAM</h4><p><b>A massive riverside complex with a mix of high-end and more affordable brands, a floating market recreation, and various cultural attractions.  </b></p><a href="https://www.iconsiam.com/th" target="_blank"><img src="iiconsiam.png" id="Icon Siam" width="800px" height="600" alt="Icon Siam"></a></div>
+	
+  <div class="card" ><h4>Card 3</h4><p>Another item.</p></div>
+	
+  <div class="card" ><h4>Card 4</h4><p>Just one more.</p></div>
+	
+  <div class="card" ><h4>Card 5</h4><p>The last one!</p></div>
+	
+</div>
+</body>
+</html>
+      
